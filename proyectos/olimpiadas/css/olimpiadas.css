@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body {
+    height: 600px;
+    background: rgb(238,225,225);
+    background: linear-gradient(0deg, rgba(238,225,225,1) 6%, rgb(117, 151, 250) 53%);
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 1.2em;
+    border-radius: 25px 25px;
+    text-align: center;
+    position: absolute;
+    left: 500px;
+    top: 15px;
+}
+.contenedor__anillos{
+    position: absolute;
+    top: 100px;
+}
+.anillo{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 150px 150px;
+    
+    
+}
+.ocultar{
+    display: none;
+}
+.anillo1{
+    top: 100px;
+    left: 180px;
+    border: 8px solid blue;
+}
+.anillo2{
+    top: 195px;
+    left: 300px;
+    border: 8px solid yellow;
+}
+.anillo3{
+    top: 100px;
+    left: 430px;
+    border: 8px solid black;
+}
+.anillo4{
+    top: 195px;
+    left: 555px;
+    border: 8px solid green;
+}
+.anillo5{
+    top: 100px;
+    left: 675px;
+    border: 8px solid red;
+}

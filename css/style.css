@@ -1,0 +1,465 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+colores{
+    
+    color: #f5f5f5;
+    color: #b6aad7;
+    color: #75FFD7;
+    color: #5FC3E3;
+    color: #7597FA;
+    color: #312450;
+    color: #b74e91;
+    color: #bb5797;
+    color: #D026FA;
+    color: #5e42a6;
+    color: #5052b5;
+    color: #4c4eac;
+    color: #664cab;
+    color: #493382;
+    color: #645195;
+    color: #274677; 
+
+}
+@font-face{
+    font-family: 'fa-regular';
+    src: url('../fonts/fa-regular-400.ttf');
+}
+@font-face{
+    font-family: 'fa-solid';
+    src: url('../fonts/fa-solid-900.ttf');
+}
+body{
+    font-family: 'fa-solid';
+}
+/********************* Estilos cabecera *********************************/
+.header{
+    position: fixed;
+    width: 100%;
+    
+}
+.header__container{
+    background-color: #312450;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+}
+.logo{
+    color: #f5f5f5;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    width: 30%;
+}
+.lista{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+.lista__li{
+    list-style: none;
+}
+.lista__a{
+    text-decoration: none;
+    color: #b6aad7;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 1em;
+}
+.lista__a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    border-radius: 1px;
+    background-color: #b74e91;
+    transition: width .3s;
+}
+.lista__a:hover::after{
+    width: 100%;
+}
+.burger{
+    display: none;
+}
+.burger div{
+    width: 25px;
+    height: 3px;
+    margin: 5px 0 5px 0;
+    border-radius: rgb(193, 193, 193);
+    background-color: white;
+    transition: all 1s ease-out;
+}
+/********************* Estilos cabecera *********************************/
+
+/********************* Estilos section *********************************/
+
+/********************* Estilos section Portada*********************************/
+
+.container__wrapper{
+    background-color: #5e42a6;
+}
+.container__inner{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    /* rgba(46, 28, 28, 0.363), rgba(0, 0, 0, 0.486) */
+    background-image: linear-gradient(rgb(49, 36, 80,0.363), rgba(0, 0, 0, 0.486)), url('../img/pc.jpg');
+    background-size: cover;
+    background-position: 100% 40%;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.container__inner--titulo{
+    padding: 3em 0 0 3em;
+    font-size: 1.5em;
+    color: #f5f5f5;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 40px 0 0 50px;
+}
+.container__inner--p{
+    padding: 0 0 3em 3em;
+    color: #b6aad7;
+    letter-spacing: 1px;
+    margin-left: 70px;
+}
+.container__a{
+    text-decoration: none;
+    color: #b74e91;
+}
+.container__button{
+    text-decoration: none;
+    text-align: center;
+    padding: 1.5em;
+    border: 1px solid #b6aad7;
+    border-radius: 30px;
+    width: 130px;
+    margin-left: 5em;
+    font-size: 0.6em;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.container__button--desarrollo{
+    margin-left: 0em; 
+}
+.actions li {
+    margin: 3em 0em 0em -3.2em;
+    list-style: none;
+}
+.action{
+    display: flex;
+}
+.action li {
+    list-style: none;
+}
+.container__button--form{
+    margin-left: 5em;
+}
+.container__button--proyuno{
+    margin-left: 9em;
+    margin-top: 15px;
+}
+.container__button--proydos{
+    margin-left: 9em;
+    margin-top: 15px;
+}
+.container__button--proyuno:hover{
+    background-color: #4c4eac;
+}
+.container__button--proydos:hover{
+    background-color: #5052b5;
+}
+.container__button:hover{
+    background-color: #1f3458;
+}
+.container__button--desarrollo:hover{
+    background-color: #bb5797;
+}
+.container__button--form:hover{
+    background-color: #664cab;
+}
+.container__boton{
+    color: white;
+    font-size: 1em;
+    background-color: #b74e91;
+    border-radius: 30px;
+    width: 30px;
+    text-align: center;
+}
+.container__atras{
+    position: absolute;
+    top: 250px;
+    left: 6px;
+}
+.container__adelante{
+    position: absolute;
+    top: 250px;
+    right: 6px;
+}
+.container__atras:hover{
+    cursor: pointer;
+}
+.container__adelante:hover{
+    cursor: pointer;
+}
+
+.container__wrapper2{
+    display: flex;
+    flex-direction: column;
+
+}
+.container__img{
+    width: 441px;
+    transform-origin: top right;
+    -webkit-transform-origin: top right;
+}
+.container__section{
+    height: 245px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/********************* Estilos section Portada *********************************/
+
+/********************* Estilos section Olimoiadas *********************************/
+
+.container__olimpiadas{
+    display: flex;
+}
+.container__figure{
+    width: 34%;
+}
+.container__inner--proy{
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+    background-color: #5052b5;
+}
+.container__inner--rana{
+    background-color: #4c4eac;
+}
+.container__inner--olimpiadas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titulo__olimpiadas{
+    padding: 1em;
+    margin: 10px 0px 0px 55px;
+}
+.parrafo__olimpiadas{
+    padding: 1em;
+}
+/********************* Estilos section Olimpiadas*********************************/
+
+/********************* Estilos section  *********************************/
+
+/********************* Estilos section two *********************************/
+
+.content__desarrollo{
+    background-color: #b74e91;
+}
+.inner{
+    padding: 3.1em;
+}
+.features {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: center;
+    -moz-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    border-radius: 0.25em;
+    border: solid 1px rgba(255, 255, 255, 0.15);
+    /*background: rgba(255, 255, 255, 0.05);*/
+    background-color: rgb(187, 87, 151);
+    margin: 0 0 2em 0;
+}
+.features section {
+    padding: 3.5em 3em 1em 7em ;
+    width: 36%;
+    border-top: solid 1px rgba(255, 255, 255, 0.15);
+    position: relative;
+}
+.features section:nth-child(-n + 2) {
+    border-top-width: 0;
+}
+
+.features section:nth-child(2n) {
+    border-left: solid 1px rgba(255, 255, 255, 0.15);
+}
+.content__inner--h3{
+    color: #f5f5f5;
+    padding: 1em;
+    letter-spacing: 1px;
+    margin-top: -3em;
+}
+.features__span{
+    margin-left: -4em;
+}
+.features__span img{
+    width: 32px;
+    height: 32px;
+    background-color: #f5f5f5;
+    border-radius: 25px;
+    padding: 0.5em;
+}
+/********************* Estilos section two *********************************/
+
+/********************* Estilos section three *********************************/
+
+.content__contacto{
+    background-color: #5e42a6;
+}
+.content__form--contacto{
+    display: flex;
+    justify-content: space-around;
+}
+.content__form--contacto .section__form{
+    width: 60%;
+    border-right: solid 1px rgba(255, 255, 255, 0.15);
+}
+.content__form--contacto .section__contact{
+    width: 40%;
+}
+.fields{
+    display: flex;
+    flex-wrap: wrap;
+}
+.field{
+    display: flex;
+    flex-direction: column;
+}
+.half label{
+    color: #f5f5f5;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0.5em;
+}
+.half input{
+    background-color: #664cab;
+    border: solid 1px rgba(255, 255, 255, 0.15);
+    padding: 1em;
+    width: 300px;
+    border-radius: 5px 5px;
+    margin-left: 0.5em;
+}
+.half textarea{
+    background-color: #664cab;
+    border: solid 1px #ffffff26;
+    padding: 1em;
+    width: 335%;
+    border-radius: 5px 5px;
+}
+.content__inner--p{
+    padding: 1em;
+    color: #b6aad7;
+    letter-spacing: 2px;
+}
+.container__inner--h2{
+    color: #f5f5f5;
+    padding: 1em;
+}
+
+.contact h3{
+    color: #f5f5f5;
+    padding: 1em 1em 1em 1.5em;
+}
+.contact span{
+    color: #b6aad7;
+    padding: 1em 1em 1em 1.5em;
+}
+.contact .mail {
+    color: #b6aad7;
+    text-decoration: none;
+    padding: 1em 1em 1em 1.5em;
+}
+.contact li{
+    list-style: none;
+}
+.icons{
+    display: flex;
+}
+.icons a{
+    text-decoration: none;
+    padding: 1em 1em 1em 1.5em;
+}
+.icons .label{
+    padding: 0em;
+}
+/********************* Estilos section three *********************************/
+
+/********************* Estilos pie *********************************/
+
+.footer{
+    background-color: #493382;
+}
+.footer__menu{
+    display: flex;
+    justify-content: center;
+}
+.footer__menu li{
+    list-style: none;
+    color: #645195;
+    margin: 0 1em 0 1em;
+}
+.footer__menu span{
+    border-right: 1px solid #ffffff26;
+}
+/********************* Estilos pie *********************************/
+
+@media screen and (max-width: 1024px){
+.lista{
+    width: 60%;
+}
+}
+@media screen and (max-width: 830px){
+    body{
+        overflow-x: hidden;
+    }
+    .burger{
+        display: block;
+    }
+    .lista{
+        position: absolute;
+        right: 0px;
+        top: 15vh;
+        height: 80vh;
+        width: 50%;
+        background-color: #312450;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        transform: translate(100%);
+        transition: transform 2s;
+    }
+    .lista__li{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    .lista__activada .lista__li{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+    .lista__activada{
+        transform: translateX(0%)
+    }
+    .toogle>.burger__line1{
+        transform: translate(0px, 9px) rotate(45deg) ;
+    }
+    .toogle>.burger__line2{
+        opacity: 0;
+    }
+    .toogle>.burger__line3{
+        transform: translate(0px, -7px) rotate(-45deg);
+    }
+}

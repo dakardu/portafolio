@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+colores{
+    color: #75FFD7;
+    color: #5FC3E3;
+    color: #7597FA;
+    color: #312450;
+    color: #D026FA;
+    color: #5e42a6;
+    color: #5052b5;
+ 
+ }
+ @font-face{
+     font-family: 'fa-regular';
+     src: url('../fonts/fa-regular-400.ttf');
+ }
+ @font-face{
+     font-family: 'fa-solid';
+     src: url('../fonts/fa-solid-900.ttf');
+ }
+ body{
+     font-family: 'fa-solid';
+ }
+ /********************* Estilos cabecera *********************************/
+ .header{
+     width: 100%;
+     
+ }
+ .header__container{
+     background-color: #312450;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     height: 15vh;
+ }
+ .logo{
+     color: white;
+     font-weight: bold;
+     letter-spacing: 5px;
+     font-size: 1.2em;
+     text-transform: uppercase;
+     width: 30%;
+ }
+ .lista{
+     display: flex;
+     width: 40%;
+     justify-content: space-around;
+ }
+ .lista__li{
+     list-style: none;
+ }
+ .lista__a{
+     text-decoration: none;
+     color: white;
+     letter-spacing: 3px;
+     font-weight: bold;
+     font-size: 1em;
+ }
+ .lista__a::after{
+     content: '';
+     display: block;
+     width: 0;
+     height: 3px;
+     border-radius: 1px;
+     background-color: #D026FA;
+     transition: width .3s;
+ }
+ .lista__a:hover::after{
+     width: 100%;
+ }
+ .burger{
+     display: none;
+ }
+ .burger div{
+     width: 25px;
+     height: 3px;
+     margin: 5px 0 5px 0;
+     border-radius: rgb(193, 193, 193);
+     background-color: white;
+     transition: all 1s ease-out;
+ }
+ /********************* Estilos cabecera *********************************/
+.container{
+   background-color: #1f5768;
+}
+.container__main{
+    position: absolute;
+    height: 80vh;
+    width: 100%;
+}
+.container__figure--charca{
+    position: absolute;
+    height: 100%;
+    top: 100px;
+}
+.container__charca{
+    height: 99%;
+}
+.container__figure--rana{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.container__rana{
+    height: 15vh;
+}
+.container__botones{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    height: 150px;
+    right: 0px;
+    bottom: 0px;
+    margin: 0 10px 10px 0;
+    padding: 1.5em;
+    border-radius: 15px 15px;
+    background-color: #415d66;
+}
+.container--boton{
+    background-color: #517581;
+    color: white;
+    border-radius: 2em 2em;
+    padding: 1em;
+}
+.container__boton--arriba, .container__boton--abajo{
+    width: 60%;
+}
