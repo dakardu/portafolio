@@ -576,17 +576,28 @@ body{
         height: 245px;
     }
     .container__inner--titulo{
-        margin-top: 100px;
-        margin-left: -45px;
+        margin-top: 5px;
+        margin-left: 5px;
         font-size: 0.9em;
+    }
+    .titulo__ppal{
+        margin-top: 100px;
+        text-align: center;
+        font-size: 1em;
+        margin-left: -20px;
     }
     .container__inner--h2{
         font-size: 1em;
         text-align: center;
     }
-    .container__inner--p{
+    .container__inner .parrafo__ppal{
         margin-top: 20px;
-        margin-left: -6px;
+        margin-left: 5px;
+        font-size: 0.9em;
+    }
+    .container__inner--p{
+        margin-top: -10px;
+        margin-left: 10px;
         font-size: 0.8em;
     }
     .content__inner--p{
@@ -617,11 +628,11 @@ body{
     }
     .container__button--proyuno{
         padding: 0.7em;
-        margin: 25px 0 0px 0;
+        margin: 50px 0 0px 0;
         width: 100px;
     }
     .memoria{
-        margin-top: -5px;
+        margin-top: 3px;
     }
     .container__button--proydos{
         padding: 0.7em;
