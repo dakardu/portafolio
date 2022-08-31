@@ -131,6 +131,9 @@ body{
     margin-left: 70px;
     color: #b6aad7;  
 }
+.container__inner--hacemos{
+    margin-bottom: 40px;
+}
 
 /*:root{
   --texcol: #547C77;  
