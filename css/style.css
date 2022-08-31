@@ -531,4 +531,33 @@ body{
     .container__button--ppal{
         margin-left: auto;
     }
+
+
+
+    .content__form--contacto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .half textarea{
+        width: 160%;
+    }
+    .content__form--contacto .section__form{
+        border-right: none;
+    }
+    .contact h3{
+        margin-top: 20px;
+    }
+
+    .footer__menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer__menu li{
+        text-align: center;
+    }
+    .footer__menu span{
+        border-right: none;
+    }
 }
