@@ -1,8 +1,11 @@
 const burger =document.querySelector('.burger')
-const figureRotate = document.querySelector('.container__figure')
 const arrayImages = ['img/desarrollo.jpg', 'img/pc.jpg', 'img/laweb.jpg', 'img/seguridad.jpeg', 'img/web.jpg', 'img/notebook.jpg']
+const btnProyuno = document.querySelectorAll('.container__button--proyuno')
+const btnProydos = document.querySelectorAll('.container__button--proydos')
 let contador = 0
 let angle = 0
+
+console.log(btnProyuno)
 
 function visualizarLista(){
     const lista = document.querySelector('.lista')
@@ -41,8 +44,25 @@ function carrousel(contenedor){
     })
 }
 
+for(let i = 0; i<btnProyuno.length; i++){
+    btnProyuno[i].addEventListener('mouseover', function(){
+        btnProyuno[i].style.backgroundColor = '#4c4eac'
+    })
+    btnProyuno[i].addEventListener('mouseout', function(){
+        btnProyuno[i].style.backgroundColor = '#5052b5'
+    })
+}
+for(let i = 0; i<btnProydos.length; i++){
+    btnProydos[i].addEventListener('mouseover', function(){
+        btnProydos[i].style.backgroundColor = '#5052b5'
+    })
+    btnProydos[i].addEventListener('mouseout', function(){
+        btnProydos[i].style.backgroundColor = '#4c4eac'
+    })
+}
+
+
 burger.addEventListener('click', visualizarLista)
-//figureRotate.addEventListener('mouseover', rotarImagen)
 document.addEventListener('DOMContentLoaded', () => {
     const contenedor = document.querySelector('.container__inner')
     carrousel(contenedor)
