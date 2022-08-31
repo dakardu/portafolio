@@ -5,7 +5,7 @@ const btnProydos = document.querySelectorAll('.container__button--proydos')
 let contador = 0
 let angle = 0
 
-console.log(btnProyuno)
+//console.log(btnProyuno)
 
 function visualizarLista(){
     const lista = document.querySelector('.lista')
