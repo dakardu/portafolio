@@ -487,12 +487,7 @@ body{
 .footer__menu li{
     list-style: none;
     color: #645195;
-    margin: 0 1rem 0 1rem;
-}
-.footer__copy{
-    font-size: 3rem;
-    color: #645195;
-    margin-top: 23px;
+    margin: 0 0.5rem 0 0.5rem;
 }
 .footer__linea {
     border-right: 1px solid #ffffff26;
@@ -688,11 +683,11 @@ body{
     .footer__menu{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        align-items: flex-start;
     }
     .footer__menu li{
-        text-align: center;
         font-size: 0.8em;
+        margin: -0.7rem 0 0 -1rem;
     }
     .footer__menu span{
         border-right: none;
