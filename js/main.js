@@ -5,7 +5,7 @@ const btnProydos = document.querySelectorAll('.container__button--proydos')
 const btnOcultarNetx = document.querySelector('.container__adelante')
 const btnOcultarBack = document.querySelector('.container__atras')
 const body = document.querySelector('.body')
-console.log(body)
+//console.log(body)
 
 let contador = 0
 let angle = 0
