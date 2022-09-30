@@ -129,7 +129,7 @@ body{
 .container__inner--p{
     padding: 0 0 3em 3em;
     letter-spacing: 1px;
-    margin-left: 70px;
+    /* margin-left: 70px; */
     color: #b6aad7;  
 }
 .container__inner--hacemos{
@@ -428,7 +428,7 @@ body{
     border: solid 1px #ffffff26;
     padding: 1em;
     margin-left: 0.5em;
-    width: 300%;
+    width: 300px;
     border-radius: 5px 5px;
 }
 .content__inner--p{
@@ -496,9 +496,28 @@ body{
 /********************* Estilos pie *********************************/
 
 @media screen and (max-width: 1024px){
-.lista{
-    width: 60%;
-}
+    .lista{
+        width: 60%;
+    }
+    .container__button--ppal{
+        margin: auto;
+    }
+    .content__form--contacto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section__form{
+        width: 100%;
+        border-right: none;
+        border-bottom: solid 1px rgba(255, 255, 255, 0.15);
+    }
+    .container__button--form {
+        margin: 0 0 2rem 0;
+    }
+    .section__contact{
+        width: 100%;
+    }
 }
 @media screen and (max-width: 830px){
     body{
@@ -569,7 +588,7 @@ body{
     }
     .container__button--form{
         padding: 1.3em;
-        width: 100%;
+        width: 93%;
         margin-bottom: 3em;
     }
     .container__button--proyuno{
@@ -599,7 +618,7 @@ body{
         width: 100%;
     }
     .section__form{
-        width: 110%;
+        width: 100%;
         border-right: none;
         border-bottom: solid 1px rgba(255, 255, 255, 0.15);
     }
@@ -656,14 +675,17 @@ body{
     .content__inner--p{
         font-size: 0.8em;
     }
+    .field{
+        width: 100%;
+    } 
     .half label{
         font-size: 1em;
     }
     .half input{
-        width: 125%;
+        width: 90%;
     }
     .half textarea{
-        width: 131%;
+        width: 90%;
     }
     .contact h3{
         margin-top: 20px;
