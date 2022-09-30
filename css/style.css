@@ -551,7 +551,7 @@ body{
     }
     .container__button--proyuno{
         padding: 0.7em;
-        margin: 50px 0 0px 0;
+        margin: 15px 0 0px 0;
     }
     .container__button--proydos{
         padding: 0.7em;
@@ -631,6 +631,9 @@ body{
     }
     .content__inner--p{
         font-size: 0.8em;
+    }
+    .parrafo__olimpiadas{
+        padding: 0.5rem;
     }
     .field{
         width: 100%;
