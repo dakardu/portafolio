@@ -1,5 +1,5 @@
 const burger =document.querySelector('.burger')
-const arrayImages = ['img/desarrollo.jpg', 'img/pc.jpg', 'img/laweb.jpg', 'img/seguridad.jpeg', 'img/web.jpg', 'img/notebook.jpg']
+const arrayImages = ['img/desarrollo.jpg', 'img/pc.jpg', 'img/laweb.jpg','img/notebook.jpg', 'img/seguridad.jpeg', 'img/web.jpg']
 const btnProyuno = document.querySelectorAll('.container__button--proyuno')
 const btnProydos = document.querySelectorAll('.container__button--proydos')
 const btnOcultarNetx = document.querySelector('.container__adelante')
