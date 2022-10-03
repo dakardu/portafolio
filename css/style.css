@@ -444,8 +444,10 @@ body{
 }
 .footer__menu li{
     list-style: none;
-    color: #645195;
+    color: #f5f5f5;
     margin: 0 0.5rem 0 0.5rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
 }
 .footer__linea {
     border-right: 1px solid #ffffff26;
