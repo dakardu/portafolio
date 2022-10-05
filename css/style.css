@@ -20,6 +20,7 @@ colores{
     color: #493382;
     color: #645195;
     color: #274677; 
+    color: #147e8c;
 
 }
 @font-face{
@@ -203,7 +204,7 @@ body{
     margin-top: 15px;
 }
 .container__button--ppal:hover{
-    background-color: #1f3458;
+    background-color: #263133;
 }
 .container__button--desarrollo:hover{
     background-color: #bb5797;
