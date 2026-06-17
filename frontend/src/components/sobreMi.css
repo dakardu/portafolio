@@ -1,0 +1,72 @@
+.about {
+	padding: 4rem 2rem 8rem;
+}
+
+.about-container {
+	max-width: 1000px;
+
+	margin-left: 100px;
+	text-align: center;
+}
+
+.about h2 {
+	font-size: 3rem;
+	margin-bottom: 4rem;
+}
+
+.about h2 span {
+	color: #c77dff;
+}
+
+.about p {
+	font-size: 1.2rem;
+	line-height: 1.8;
+	margin-bottom: 3rem;
+	color: #f3f4f6;
+}
+
+.about p span {
+	color: #c77dff;
+	font-weight: 700;
+}
+
+/*********** Media Queries 768px Tablets *****************/
+@media (max-width: 768px) {
+	.about-container {
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.about {
+		padding: 3rem 1rem;
+	}
+
+	.about h2 {
+		font-size: 2.5rem;
+		text-align: center;
+	}
+
+	.about p {
+		font-size: 1.1rem;
+		line-height: 1.6;
+	}
+}
+
+@media (max-width: 480px) {
+	.about-container {
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.about h2 {
+		font-size: 2rem;
+	}
+
+	.about p {
+		font-size: 1rem;
+	}
+}
+
+/*********** Media Queries 430px Mobile *****************/
+
+/*********** Media Queries 360px Small Mobile *****************/
