@@ -62,7 +62,7 @@ http://localhost:3000/api/projects
 - Integración con MongoDB Atlas
 - Despliegue mediante Docker
 
-## Estado del proyecto
+## Estado
 
 🚧 En desarrollo
 
