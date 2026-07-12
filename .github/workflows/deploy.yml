@@ -71,6 +71,8 @@ jobs:
             -u ${{ github.actor }} \
             --password-stdin
 
+            mkdir -p backend
+
             printf '%s' "${{ secrets.ENV_FILE }}" > backend/.env
 
               docker compose pull
