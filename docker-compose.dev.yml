@@ -1,6 +1,6 @@
 services:
   backend:
-    image: ghcr.io/dakardu/portafolio-backend:latest
+    build: ./backend
     container_name: portafolio-backend
 
     env_file:
@@ -16,7 +16,7 @@ services:
       - "3000:3000"
 
   frontend:
-    image: ghcr.io/dakardu/portafolio-frontend:latest
+    build: ./frontend
     container_name: portafolio-frontend
 
     depends_on:
@@ -35,4 +35,4 @@ networks:
   portafolio:
     driver: bridge
   proxy:
-    name: proxy
+    external: true
